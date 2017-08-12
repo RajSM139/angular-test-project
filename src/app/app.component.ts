@@ -14,6 +14,7 @@ export class AppComponent {
   myArr = ['Ramesh', 'Suresh', 'Dinesh'];
   property = 'text';
   value = 'Property Binding Example';
+  title = 'My Angular 4 App';
   myEvent(event) {
     console.log(event);
   }
